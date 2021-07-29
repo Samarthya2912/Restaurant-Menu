@@ -1,0 +1,12 @@
+.menu{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 5vh;
+    justify-content: center;
+}
+
+@media screen and (max-width: 415px) {
+    .menu{
+        grid-template-columns: auto;
+    }
+}

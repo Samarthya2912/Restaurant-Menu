@@ -1,12 +1,12 @@
 import './Nav.css';
 
-function Nav() {
+function Nav({clickHandler}) {
     return (
         <section>
-            <button>All</button>
-            <button>Breakfast</button>
-            <button>Lunch</button>
-            <button>Shakes</button>
+            <button onClick={()=>{clickHandler("all")}}>All</button>
+            <button onClick={()=>{clickHandler("breakfast")}}>Breakfast</button>
+            <button onClick={()=>{clickHandler("lunch")}}>Lunch</button>
+            <button onClick={()=>{clickHandler("shakes")}}>Shakes</button>
         </section>
     )
 }

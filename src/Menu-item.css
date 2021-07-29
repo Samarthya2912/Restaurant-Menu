@@ -1,0 +1,55 @@
+.menu-item{
+    display: flex;
+    justify-content: center;
+}
+
+img{
+    height: 20vh;
+    width: 15vw;
+    margin: 0 20px;
+}
+
+.right{
+    width: 25vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.title{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: dashed black 2px;
+}
+
+.name{
+    text-transform: capitalize;
+    font-weight: 700;
+}
+
+.price{
+    color: rgb(228, 154, 17);
+    font-weight: 700;
+}
+
+.right p{
+    text-align: left;
+}
+
+@media screen and (max-width: 415px) {
+    .right{
+        width: 63vw;
+    }
+
+    img{
+        width: 33vw;
+        height: 16vh;
+        margin: 0;
+        margin-right: 5px;
+        /* border: solid black 4px; */
+    }
+
+    .menu-item{
+        margin: 10px;
+    }
+}
