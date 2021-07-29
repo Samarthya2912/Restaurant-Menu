@@ -1,0 +1,26 @@
+section{
+    margin: 5vh 0;
+}
+
+section button{
+    background: transparent;
+    color: orange;
+    border: none;
+    font-size: larger;
+    cursor: pointer;
+    padding: 5px;
+    margin: 5px 2vw;
+    border-radius: 5px;
+    transition: 0.3s ease;
+}
+
+section button:hover{
+    color: white;
+    background: orange;
+}
+
+@media screen and (max-width: 415px){
+    section button{
+        margin: 5px 1vw;
+    }
+}
